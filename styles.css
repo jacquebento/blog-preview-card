@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Figtree:ital,wght@0,300..900;1,300..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree";
+    font-size: 16px;
+}
+
+.card{
+    width: 300px;
+    margin: 80px auto;
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 10px 10px black;
+}
+
+.illustration{
+    width: 260px;
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+
+p{
+    margin: 20px;
+    font-size: 12px;
+}
+
+.tag{
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.5rem;
+    width: 55px;
+    font-weight: 800;
+    font-size: small;
+    transition: all 0.2s;
+}
+
+.tag:hover{
+    scale: 1.2;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.author{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    font-weight: 500;
+    font-size: smaller;
+    transition: all 0.2s;
+}
+
+.author img{
+    width: 10%;
+    height: 10%;
+}
+
+.author p:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+h1{
+    margin: 20px;
+    font-size: large;
+    font-weight: 800;
+    transition: all 0.2s;
+}
+
+h1:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+h1:focus{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.text{
+    line-height: 1.5em;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
